@@ -1,7 +1,7 @@
 export default defineNuxtPlugin(() => {
   const session = useCookie("session")
   const api = $fetch.create({
-    baseURL: 'https://3000-sharedworks-webflowasse-po1abmzkdzh.ws-us116.gitpod.io',
+    baseURL: 'https://webflow-asset-extention-ten.vercel.app',
     headers: {
       'Access-Control-Allow-Origin': "*",
       'Access-Control-Allow-Headers': "*",

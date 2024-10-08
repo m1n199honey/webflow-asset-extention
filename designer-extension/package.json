@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "ext:dev": "nodemon --watch src --ext ts,vue --exec \"npm run generate && npm run ext:serve\"",
-    "ext:serve": "webflow extension serve"
+    "ext:serve": "webflow extension serve",
+    "ext:bundle": "webflow extension bundle"
   },
   "dependencies": {
     "nuxt": "^3.13.0",

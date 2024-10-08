@@ -12,5 +12,8 @@ export default defineNuxtConfig({
         protocol: "wss"
       }
     },
+  },
+  routeRules:{
+    "/api/**": {proxy:"https://webflow-asset-extention-ten.vercel.app"}
   }
 })

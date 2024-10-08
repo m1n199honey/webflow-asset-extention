@@ -25,7 +25,7 @@ const fetchAssets = () => {
     generateAltText: false,
     maxAltText: 0,
   });
-}app
+}
 const verifySession = () => {
   isLoading.value = true;
   // const $api = api.value;
